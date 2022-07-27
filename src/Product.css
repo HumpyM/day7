@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+  }
+  
+  .app{
+    /* background-color: #86888b; */
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card{
+    width: 18rem;
+    outline-color: #131314;
+    border-style: solid;
+    border-radius: 15px;     
+    grid-template-columns: auto auto auto;
+    background-color: #d9f4f8;
+    padding: 10px;
+  }
+ 
+.card-img-top{
+    width:100%;       
+    border-radius: 5px;
+    height:150px;
+}
+
+.select{
+    font-size: 15px;
+    border-radius: 4px;
+    padding: 1px;
+    margin-bottom: 5px;
+}
+
+.cd{
+    max-width: 90%;
+    margin: 10px;
+    
+}
+.btn{
+    background-color: #0909f8;
+    color: white;
+    border-radius: 5px;
+}
